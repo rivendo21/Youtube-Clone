@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Youtube Clone</title>
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <div class="sidebar-component">
+          <img src="home.png" />
+          <div>Home</div>
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <div class="sidebar-component">
+          <img src="explore.png" />
+          <div>Explore</div>
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <div class="sidebar-component">
+          <img src="screen.png" />
+          <div>Library</div>
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <div class="sidebar-component">
+          <img src="settings.png" />
+          <div>Settings</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="header">
+      <div class="left-section">
+        <div class="menu-button">
+          <img
+            class="left-logo"
+            src="dehaze_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
+          />
+          <div class="tooltip">Content menu</div>
+        </div>
+        <a href="/">
+          <img class="youtube-image" src="youtube-logo.svg" />
+        </a>
+      </div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-image" src="search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="search-button voice-button">
+          <img class="voice-image" src="voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="create-button-container">
+          <img class="create-button" src="create-button.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-apps-container">
+          <img class="create-button" src="youtube-apps.svg" />
+          <div class="tooltip">Youtube apps</div>
+        </div>
+
+        <div class="relative-container">
+          <div class="notifications-container">
+            <img class="create-button" src="notifications.svg" />
+            <div class="tooltip">Notifications(3)</div>
+          </div>
+          <div class="absolute-container">
+            <p>3</p>
+          </div>
+        </div>
+        <div class="user-logo-container">
+          <img class="create-button profile" src="user-logo.jpeg" />
+          <div class="tooltip">Profile</div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="videos-grid">
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/N775KsWQVkw/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDCPDrXXzuaVsY7qU6SY0Q8II8eGQ"
+          />
+          <div class="video-length">15:30</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Learning programming with this method</div>
+            <div class="channel-user">Brackeys</div>
+            <div class="stats">1m views . 1 year ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/4ihVDRTeN9Y/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCEEjkCf9U3KfAQSbG3ojGXbsnmjg"
+          />
+          <div class="video-length">54:20:36:30</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.googleusercontent.com/ytc/AIdro_kCAx206P90SVpLqz_pxOy8E5tqoT00Tt7PZ4EM1rvmhQ=s160-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Drumming till kazeros release</div>
+            <div class="channel-user">Drummerfy</div>
+            <div class="stats">3m views . 30 mins ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image boulean-image"
+            src="https://cdn.discordapp.com/attachments/1281031108586115224/1438363862129709317/image.png?ex=69207f7c&is=691f2dfc&hm=e5baa41544cd3a9e47b40cc8b71fc8a023dd4ef4b9d471ba4e76a2b9500e8499&"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.googleusercontent.com/66yRc0UyMAApNEc3cd19q27crgwZ3JARNZ8jp0iT9ahUoZU7_5A9AHzfIuss37Yha9u8O2kdZA=s160-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Boulean teachings come join</div>
+            <div class="channel-user">Boulean</div>
+            <div class="stats">200k views . 3 month ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/PiQt3yzKyGA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA6a5MRcMVJR0u8R7WrKnSrimtCNA"
+          />
+          <div class="video-length">25:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Software Enginnering Market</div>
+            <div class="channel-user">Tech</div>
+            <div class="stats">513K views . 1 week ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/Ge0uE9pmNIk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCquN89DCG8XJ3ZS_O9xTOZzQ2lLA"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">How it is like to be solo AI developer</div>
+            <div class="channel-user">Tech</div>
+            <div class="stats">300k views . 1 year ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/74cOUSKXMz0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCHwNiJOJoREoOmA_p6psccWKQOIQ"
+          />
+          <div class="video-length">8:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.googleusercontent.com/ytc/AIdro_kz7cKMtfg5QkI_VznexLmhsxOx8M_4DGMqKie65X5ARw=s160-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Lets Study Coding!</div>
+            <div class="channel-user">IcanStudy</div>
+            <div class="stats">245k views . 2 day ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/7RowA5m7uJs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDXGNa-Zi9qfpFfvblMPqxggLsO_g"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Learn programming today</div>
+            <div class="channel-user">Brackeys</div>
+            <div class="stats">1m views . 1 day ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/7RowA5m7uJs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDXGNa-Zi9qfpFfvblMPqxggLsO_g"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Learn programming today</div>
+            <div class="channel-user">Brackeys</div>
+            <div class="stats">1m views . 1 day ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/7RowA5m7uJs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDXGNa-Zi9qfpFfvblMPqxggLsO_g"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Learn programming today</div>
+            <div class="channel-user">Brackeys</div>
+            <div class="stats">1m views . 1 day ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/7RowA5m7uJs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDXGNa-Zi9qfpFfvblMPqxggLsO_g"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Learn programming today</div>
+            <div class="channel-user">Brackeys</div>
+            <div class="stats">1m views . 1 day ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/7RowA5m7uJs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDXGNa-Zi9qfpFfvblMPqxggLsO_g"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Learn programming today</div>
+            <div class="channel-user">Brackeys</div>
+            <div class="stats">1m views . 1 day ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-container">
+        <div class="image-container">
+          <img
+            class="thumbnail-image"
+            src="https://i.ytimg.com/vi/7RowA5m7uJs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDXGNa-Zi9qfpFfvblMPqxggLsO_g"
+          />
+          <div class="video-length">12:20</div>
+        </div>
+        <div class="content">
+          <div class="horizontal-layer">
+            <img
+              class="profile-picture"
+              src="https://yt3.ggpht.com/ytc/AIdro_mtZcOqYceTTKJehGYh1QFEn0zBqRCig4MRz0TE3tmdXJ8=s48-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="horizontal-layer">
+            <div class="main-title">Learn programming today</div>
+            <div class="channel-user">Brackeys</div>
+            <div class="stats">1m views . 1 day ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
